@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form action="" id="form" style="padding: 10px;">
+        <div>
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Enter you name">
+            <span class="alert-massege" style="color: red;font-size: x-small;"> </span>
+
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter you email">
+            <span class="emailError" style="color: red;font-size: x-small;"> </span>
+        </div>
+
+
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="Enter you password">
+            <span class="passwordError" style="color: red;font-size: x-small;"> </span>
+        </div>
+
+        <!-- <p id="password-hint" class="hidden">Must be at least 8 character</p> -->
+        <div>
+            <label for="bio">bio</label>
+            <textarea name="bio" id="bio" placeholder="enter your bio..."></textarea>
+            <span class="bio-message" style="color: red;font-size: x-small;"> </span>
+        </div>
+
+        <p id="chr-count">150 character remaining</p>
+
+
+
+        <div><input id="checkbox" type="checkbox">I agree with terms and condition</div>
+
+        <div>
+            <label for="country">choose you country</label>
+            <select name="country" id="country">
+                <option value="select your country">select your country</option>
+                <option value="india">india</option>
+                <option value="france">france</option>
+                <option value="usa">usa</option>
+            </select>
+            <span class="alert-massege" style="color: red;font-size: x-small;"> </span>
+        </div><br>
+        <button id="btn">login</button>
+        </div>
+        </div>
+    </form>
+
+    <h1 class="hidden">Account created successfully</h1>
+    <script src="index.js"></script>
+</body>
+
+</html>

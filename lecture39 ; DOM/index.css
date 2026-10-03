@@ -1,0 +1,25 @@
+
+.ram{
+    background-color: blueviolet;
+    font-style: italic;
+    font-size: large;
+}
+
+.style{
+    background-color: violet;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 30px;
+    border: 1px solid black;
+}
+.style img{
+   margin: 30px;
+   margin-left: 50px;
+}
+#deati{
+    display: flex;
+    justify-content: space-around;
+}
